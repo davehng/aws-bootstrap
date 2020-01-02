@@ -9,7 +9,7 @@ phases:
       # run 'npm install' using versions in package-lock.json
       - npm ci
   build:
-    commandS:
+    commands:
       - npm test
       - npm run build
 
